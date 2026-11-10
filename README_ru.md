@@ -24,6 +24,8 @@
 
 ### Mega Meow
 
+![Скриншот темы Mega Meow](themes/mega-meow/preview.jpg)
+
 * **Автор:** [@pixiemays](https://github.com/pixiemays)
 * **Акцентный цвет:** `#FFF472B6`
 * **Базовая тема:** Dark

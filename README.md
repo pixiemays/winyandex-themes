@@ -24,6 +24,8 @@ This repository hosts curated custom themes and serves as the backend catalog fo
 
 ### Mega Meow
 
+![Mega Meow Preview](themes/mega-meow/preview.jpg)
+
 * **Author:** [@pixiemays](https://github.com/pixiemays)
 * **Accent Color:** `#FFF472B6`
 * **Base Theme:** Dark
