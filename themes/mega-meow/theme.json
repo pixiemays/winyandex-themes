@@ -1,0 +1,15 @@
+{
+  "id": "mega-meow",
+  "name": "Mega Meow",
+  "author": "pixiemays",
+  "version": "1.0",
+  "description": "Фирменная тёмная тема с неоновым розовым акцентом и кастомным фоновым артом.",
+  "baseTheme": "Dark",
+  "backdrop": "MicaAlt",
+  "accentColor": "#FFF472B6",
+  "backgroundColor": "#FF0B0E14",
+  "cardColor": "#FF131924",
+  "secondaryCardColor": "#FF1A2332",
+  "backgroundImage": "background.jpg",
+  "backgroundOpacity": 0.3
+}
