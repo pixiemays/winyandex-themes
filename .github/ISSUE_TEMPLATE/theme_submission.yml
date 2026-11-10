@@ -1,0 +1,43 @@
+name: "🎨 Предложить тему (Theme Submission)"
+description: "Отправить свою тему оформления для публикации в каталоге сообщества WinYandex"
+title: "[Тема сообщества]: "
+labels: ["theme-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за то, что делитесь своей темой! Заполните информацию ниже и прикрепите скриншот превью или файл темы.
+  - type: input
+    id: theme_name
+    attributes:
+      label: Название темы
+      placeholder: "Например: Cyberpunk Neon"
+    validations:
+      required: true
+  - type: input
+    id: theme_author
+    attributes:
+      label: Автор (ваш никнейм на GitHub или в Telegram)
+      placeholder: "@nickname"
+    validations:
+      required: true
+  - type: textarea
+    id: theme_description
+    attributes:
+      label: Краткое описание темы
+      placeholder: "Опишите особенности палитры, фон и общее настроение темы..."
+    validations:
+      required: true
+  - type: textarea
+    id: theme_json
+    attributes:
+      label: Конфигурация темы (JSON)
+      description: Содержимое theme.json или параметры темы
+      render: JSON
+  - type: markdown
+    attributes:
+      value: |
+        ### Вложения
+        Пожалуйста, перетащите сюда в поле ввода:
+        1. Скриншот превью темы (`preview.jpg`)
+        2. Пакет темы (`.wytheme`)
